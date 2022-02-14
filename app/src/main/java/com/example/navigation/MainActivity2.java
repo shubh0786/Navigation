@@ -9,14 +9,14 @@ import android.widget.Button;
 
 public class MainActivity2 extends AppCompatActivity {
 
-    private Button Move2;
+    private Button MoveBack;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
-        Move2=findViewById(R.id.btnBAck);
-        Move2.setOnClickListener(new View.OnClickListener() {
+        MoveBack=findViewById(R.id.btnBAck);
+        MoveBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
